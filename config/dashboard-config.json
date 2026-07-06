@@ -1,0 +1,64 @@
+{
+  "project": {
+    "title": "Projeto CTC • O2C Royalties",
+    "subtitle": "Status Report Executivo",
+    "screenTitle": "Dashboard Executivo CTC • O2C Royalties",
+    "goLiveDate": "2027-03-01",
+    "statusGeneral": "Atenção",
+    "statusCaption": "Em homologação"
+  },
+  "summary": {
+    "projectStatus": "Em Homologação",
+    "projectStatusCaption": "Fase atual do projeto",
+    "projectProgress": 72,
+    "testScopeOverride": null,
+    "validationProgressOverride": null
+  },
+  "validation": {
+    "completedStatuses": [
+      "Concluído",
+      "Concluída",
+      "Validado",
+      "Validada",
+      "Homologado",
+      "Homologada",
+      "Closed",
+      "Done"
+    ],
+    "prioritizedStatuses": [
+      "Em Validação",
+      "Em Homologação",
+      "Disponível para Testes",
+      "Disponível para Homologação",
+      "Liberado para Testes",
+      "Em Andamento",
+      "Concluído"
+    ]
+  },
+  "milestones": [
+    {
+      "name": "Sybox + Looker Studio",
+      "date": "2026-07-10",
+      "description": "Alinhamento de evidências e visão executiva"
+    },
+    {
+      "name": "Teste de integração DevOps",
+      "date": "2026-07-15",
+      "description": "Validação de integração e atualização de bases"
+    },
+    {
+      "name": "Go-live previsto",
+      "date": "2027-03-01",
+      "description": "Marco final do projeto"
+    }
+  ],
+  "footer": {
+    "showUpdatedAt": true,
+    "logos": [
+      "sydle",
+      "levty",
+      "ctc",
+      "integra"
+    ]
+  }
+}

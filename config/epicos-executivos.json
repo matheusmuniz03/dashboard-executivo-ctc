@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01",
+    "devopsEpicId": "310",
+    "title": "Licenciar Clientes",
+    "status": "Disponível para testes",
+    "responsible": "CTC",
+    "nextAction": "Definir janela de validação",
+    "diagram": "assets/diagrams/epic-01.svg"
+  },
+  {
+    "id": "02",
+    "devopsEpicId": "312",
+    "title": "Gerenciar Regras Comerciais",
+    "status": "Disponível para testes",
+    "responsible": "CTC",
+    "nextAction": "Continuar validações",
+    "diagram": "assets/diagrams/epic-02.svg"
+  },
+  {
+    "id": "03",
+    "devopsEpicId": "313",
+    "title": "Capturar Áreas não Licenciadas e Subreportadas",
+    "status": "Em refinamento",
+    "responsible": "Apsis",
+    "nextAction": "Concluir refinamento",
+    "diagram": "assets/diagrams/epic-03.svg"
+  },
+  {
+    "id": "05",
+    "devopsEpicId": "315",
+    "title": "Apurar e Receber Royalties",
+    "status": "Em homologação",
+    "responsible": "Rosangela",
+    "nextAction": "Validar 5.1 e 5.2",
+    "diagram": "assets/diagrams/epic-05.svg"
+  },
+  {
+    "id": "06",
+    "devopsEpicId": "311",
+    "title": "Assinar Contratos e Termos",
+    "status": "Disponível para testes",
+    "responsible": "CTC",
+    "nextAction": "Executar validação",
+    "diagram": "assets/diagrams/epic-06.svg"
+  },
+  {
+    "id": "07",
+    "devopsEpicId": "316",
+    "title": "Controlar Capturas",
+    "status": "Backlog",
+    "responsible": "A definir",
+    "nextAction": "Aguardar priorização",
+    "diagram": "assets/diagrams/epic-07.svg"
+  },
+  {
+    "id": "08",
+    "devopsEpicId": "317",
+    "title": "Prever Receita",
+    "status": "Backlog",
+    "responsible": "A definir",
+    "nextAction": "Aguardar priorização",
+    "diagram": "assets/diagrams/epic-08.svg"
+  }
+]

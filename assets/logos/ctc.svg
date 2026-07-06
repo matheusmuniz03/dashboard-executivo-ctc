@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" role="img" aria-label="CTC">
+  <rect width="280" height="120" fill="none"/>
+  <g fill="none" stroke-linecap="round" stroke-width="9">
+    <path d="M31 92C40 54 57 30 82 16" stroke="#a8d72d"/>
+    <path d="M43 96C55 61 73 39 99 26" stroke="#42d957"/>
+    <path d="M58 96C70 70 88 52 111 43" stroke="#ffd243"/>
+  </g>
+  <path fill="#fff" d="M111 43h42c11 0 18 4 21 12l-21 3c-2-3-5-4-10-4h-17c-12 0-20 6-24 18-4 13 1 19 13 19h17c5 0 9-1 13-4l17 4c-7 8-17 12-29 12H92c-11 0-20-4-26-11-6-7-7-16-4-27 4-13 11-23 21-30 8-5 18-8 28-8Zm62 0h82l-4 12h-28l-16 48h-25l16-48h-29l4-12Zm83 0h22l-20 60h-22l20-60Z"/>
+</svg>

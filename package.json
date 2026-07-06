@@ -1,0 +1,17 @@
+{
+  "name": "dashboard-executivo-ctc-o2c",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Dashboard executivo estático para o projeto CTC O2C Royalties.",
+  "scripts": {
+    "dev": "node scripts/static-server.mjs . 4173",
+    "build": "node scripts/build.mjs",
+    "preview": "npm run build && node scripts/static-server.mjs dist 4174",
+    "validate": "node scripts/validate-build.mjs dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

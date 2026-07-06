@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Continuidade dos refinamentos",
+    "description": "Manter a cadência de refinamento com CTC e SYDLE.",
+    "responsible": "Matheus + Rosangela",
+    "dateLabel": "Até 28/06/2026",
+    "icon": "checklist"
+  },
+  {
+    "title": "Visitas presenciais programadas",
+    "description": "Agendas direcionadas com responsáveis e objetivos por encontro.",
+    "responsible": "CTC + LEVTY",
+    "dateLabel": "Período: 30/06 a 04/07",
+    "icon": "people"
+  },
+  {
+    "title": "Sybox + Looker Studio",
+    "description": "Alinhar evidências/documentos e visão executiva.",
+    "responsible": "LEVTY",
+    "dateLabel": "Data: 10/07/2026",
+    "icon": "chart"
+  },
+  {
+    "title": "Teste de integração DevOps",
+    "description": "Validar atualização automatizada das bases.",
+    "responsible": "CTC + Integra+",
+    "dateLabel": "Data: 15/07/2026",
+    "icon": "code"
+  }
+]

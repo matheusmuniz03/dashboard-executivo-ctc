@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 180" preserveAspectRatio="none">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0v28" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#a9d72d" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#159b95" stop-opacity=".05"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="180" fill="url(#grid)"/>
+  <path d="M0 138c220-58 420-70 620-34 260 47 458 33 720-46 94-28 176-43 260-46v168H0Z" fill="#001b36" fill-opacity=".28"/>
+  <path d="M0 160c210-84 448-97 700-38 244 57 490 36 900-72" fill="none" stroke="url(#line)" stroke-width="3" stroke-opacity=".5"/>
+</svg>

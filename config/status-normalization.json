@@ -1,0 +1,73 @@
+{
+  "statusOrder": [
+    "Em Produção",
+    "Em Homologação",
+    "Em Andamento",
+    "Bloqueado",
+    "Backlog"
+  ],
+  "statusColors": {
+    "Em Produção": "#075a57",
+    "Em Homologação": "#159b95",
+    "Em Andamento": "#a9d72d",
+    "Bloqueado": "#f38b2e",
+    "Backlog": "#d8dde3"
+  },
+  "mappings": [
+    {
+      "normalized": "Em Produção",
+      "match": [
+        "Done",
+        "Closed",
+        "Concluído",
+        "Concluída",
+        "Homologado",
+        "Homologada",
+        "Em Produção"
+      ]
+    },
+    {
+      "normalized": "Em Homologação",
+      "match": [
+        "Resolved",
+        "Homologação",
+        "Em Homologação",
+        "Em Validação",
+        "Disponível para Testes",
+        "Disponível para Homologação",
+        "Liberado para Testes",
+        "DISPONÍVEL PARA TESTES CTC"
+      ]
+    },
+    {
+      "normalized": "Em Andamento",
+      "match": [
+        "Active",
+        "Doing",
+        "Em Desenvolvimento",
+        "Em Andamento",
+        "Em refinamento",
+        "Refinamento"
+      ]
+    },
+    {
+      "normalized": "Bloqueado",
+      "match": [
+        "Blocked",
+        "Bloqueado",
+        "Impedido"
+      ]
+    },
+    {
+      "normalized": "Backlog",
+      "match": [
+        "New",
+        "To Do",
+        "Backlog",
+        "Removed",
+        "Cancelado",
+        "A definir"
+      ]
+    }
+  ]
+}
