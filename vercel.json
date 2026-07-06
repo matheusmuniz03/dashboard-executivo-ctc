@@ -4,6 +4,11 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
+  "functions": {
+    "api/**/*.js": {
+      "includeFiles": "{config/**/*.json,data/generated-data.json}"
+    }
+  },
   "rewrites": [
     {
       "source": "/dashboard",
