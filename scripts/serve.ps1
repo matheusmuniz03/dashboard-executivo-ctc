@@ -88,6 +88,10 @@ try {
         $fullPath = Join-Path $fullPath "index.html"
       }
 
+      if (-not (Test-Path -LiteralPath $fullPath -PathType Leaf) -and [string]::IsNullOrWhiteSpace([System.IO.Path]::GetExtension($relativePath))) {
+        $fullPath = Join-Path $Root "index.html"
+      }
+
       if (-not (Test-Path -LiteralPath $fullPath -PathType Leaf)) {
         Send-StaticText $client 404 "Arquivo não encontrado" $headOnly
         continue

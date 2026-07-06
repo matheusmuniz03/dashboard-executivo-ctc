@@ -2,6 +2,7 @@ data/source/
 dist/
 node_modules/
 .server*.log
+.tmp/
 .env
 .env.local
 .agents/

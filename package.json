@@ -11,6 +11,9 @@
     "preview": "npm run build && node scripts/static-server.mjs dist 4174",
     "validate": "node scripts/validate-build.mjs dist"
   },
+  "dependencies": {
+    "@vercel/blob": "latest"
+  },
   "engines": {
     "node": ">=18"
   }
